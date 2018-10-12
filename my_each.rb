@@ -11,10 +11,3 @@ def my_each(array) # call original array
   end
 array
 end
-
-=begin
-my_each(array) do |item|
-  puts item
-  array
-  end
-=end
