@@ -4,12 +4,13 @@
 # return original array
 
 def my_each(array) # call original array
-  item = array.length #count items in array
-  while  > 0  #run method until items = 0
-
+  item = 0 #sets counter & index first item in array
+  while item < array.length  #run method until item count = # items in array
+    yield array[item]
+    item += 1
+  end
 end
 
 my_each(array) do |item|
   puts item
 end
-  
