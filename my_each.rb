@@ -9,10 +9,12 @@ def my_each(array) # call original array
     yield array[item]
     item += 1
   end
-
+array
 end
 
+=begin
 my_each(array) do |item|
   puts item
   array
   end
+=end
